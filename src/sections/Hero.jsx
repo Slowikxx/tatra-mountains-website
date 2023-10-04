@@ -27,7 +27,7 @@ const Hero = () => {
 			<motion.div
 				className="absolute inset-0 z-0"
 				style={{
-					backgroundImage: `url(/src/assets/images/tatry.jpg)`,
+					backgroundImage: `url(./src/assets/images/tatry.jpg)`,
 					backgroundPosition: 'bottom',
 					backgroundSize: 'cover',
 					y: backgroundY,
@@ -36,7 +36,7 @@ const Hero = () => {
 			<motion.div
 				className="absolute inset-0 z-10"
 				style={{
-					backgroundImage: `url(/src/assets/images/tatryMid.png)`,
+					backgroundImage: `url(./src/assets/images/tatryMid.png)`,
 					backgroundPosition: 'bottom',
 					backgroundSize: 'cover',
 					y: background2Y,
@@ -45,7 +45,7 @@ const Hero = () => {
 			<motion.div
 				className="absolute inset-0 z-20"
 				style={{
-					backgroundImage: `url(/src/assets/images/tatryMid2.png)`,
+					backgroundImage: `url(./src/assets/images/tatryMid2.png)`,
 					backgroundPosition: 'bottom',
 					backgroundSize: 'cover',
 					y: background3Y,
@@ -54,7 +54,7 @@ const Hero = () => {
 			<div
 				className="absolute inset-0 z-30"
 				style={{
-					backgroundImage: `url(/src/assets/images/tatryFront.png)`,
+					backgroundImage: `url(./src/assets/images/tatryFront.png)`,
 					backgroundPosition: 'bottom',
 					backgroundSize: 'cover',
 				}}
