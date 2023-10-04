@@ -1,5 +1,12 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
+import {
+	tatry,
+	tatryTop,
+	tatryMid,
+	tatryMid2,
+	tatryFront,
+} from '../assets/images/';
 
 const Hero = () => {
 	const ref = useRef(null);
@@ -27,7 +34,7 @@ const Hero = () => {
 			<motion.div
 				className="absolute inset-0 z-0"
 				style={{
-					backgroundImage: `url(./src/assets/images/tatry.jpg)`,
+					backgroundImage: `url(${tatry})`,
 					backgroundPosition: 'bottom',
 					backgroundSize: 'cover',
 					y: backgroundY,
@@ -36,7 +43,7 @@ const Hero = () => {
 			<motion.div
 				className="absolute inset-0 z-10"
 				style={{
-					backgroundImage: `url(./src/assets/images/tatryMid.png)`,
+					backgroundImage: `url(${tatryMid})`,
 					backgroundPosition: 'bottom',
 					backgroundSize: 'cover',
 					y: background2Y,
@@ -45,7 +52,7 @@ const Hero = () => {
 			<motion.div
 				className="absolute inset-0 z-20"
 				style={{
-					backgroundImage: `url(./src/assets/images/tatryMid2.png)`,
+					backgroundImage: `url(${tatryMid2})`,
 					backgroundPosition: 'bottom',
 					backgroundSize: 'cover',
 					y: background3Y,
@@ -54,7 +61,7 @@ const Hero = () => {
 			<div
 				className="absolute inset-0 z-30"
 				style={{
-					backgroundImage: `url(./src/assets/images/tatryFront.png)`,
+					backgroundImage: `url(${tatryFront})`,
 					backgroundPosition: 'bottom',
 					backgroundSize: 'cover',
 				}}
